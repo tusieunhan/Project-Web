@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canon</title>
+    <link rel="stylesheet" href="../css/Home.css">
+    <link rel="stylesheet" href="../css/reposiveUntral.css">
+    <link rel="stylesheet" href="../css/Dang_nhap.css">
+    <!-- <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../css/Man_hinh_nho.css">
+    <link rel="stylesheet" href="../icon/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../css/reponsiveTablet.css">
+    <link rel="stylesheet" href="../icon/fontawesome-free-5.15.3-web/css/all.min.css">
+    <!-- <script src="../bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/Home.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div class="header-fix">
+            <div id="header">
+                <div class="logo">
+                    <a href="../html/Home.html">
+                        <img src="../img/logo.png" alt="LOGO">
+                    </a>
+                </div>
+                <p>Việt Nam</p>
+                
+                <div class="icongiohang">
+                    
+                    <a href="../html/Gio_Hang.html"><img src="../img/38_canon_eshop.png" alt="Gio Hang"></a>
+                    <div class="box-number_checkout">
+                        <p>4</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="button-dang-nhap">
+                    <button onclick="document.getElementById('background-dang-nhap').style.display=('block') ">
+                        Đăng Nhập
+                    </button>
+                    <div class="search-nav">
+                        <i class="ti-search" onclick="document.getElementById('background-tim-kiem').style.display=('block')"></i>
+                    </div>
+                </div>
+                <div id="background-dang-nhap">
+                    <div class="container-dang-nhap">
+                        <div class="noi-dung">
+                            <div class="button-close">
+                                <button onclick="document.getElementById('background-dang-nhap').style.display=('none') ">
+                                    <i class="ti-close"></i>
+                                </button>
+                            </div>
+                            <div class="tieu-de">
+                                <h4 class="text-header-dangnhap">Đăng Nhập</4>
+                            </div>
+                            <div class="logo">
+                                <!-- <img src="../img/Untitled-1.png" alt=""> -->
+                            </div>
+                            <div class="form">
+                                <table>
+                                    <tr>
+                                        <!-- <td>Tên đăng nhập :</td> -->
+                                        <td><input type="text" placeholder="Tên đăng nhập "></td>
+                                    </tr>
+                                    <tr>
+                                        <!-- <td>Mật khẩu :</td> -->
+                                        <td><input type="password" placeholder="Mật khẩu "></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="dang-nhap">
+                                <div class="form-remember">
+                                    <input type="checkbox" name="" id="">
+                                    <div class="remember-pass">
+                                        <label for="">&nbsp; Nhớ mật khẩu</label>
+                                    </div>
+                               </div>
+                               <br>
+                                <button>
+                                    Đăng Nhập
+                                </button>
+                                <a href="../html/Form-dang-ky.html">Đăng ký</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="background-tim-kiem">
+                    <div class="container-tim-kiem">
+                        <div class="noi-dung">
+                            <div class="button-close">
+                                <button onclick="document.getElementById('background-tim-kiem').style.display=('none') ">
+                                    <i class="ti-close"></i>
+                                </button>
+                            </div>
+                            <div class="input-tim-kiem">
+                                <input type="text" placeholder="Nhập từ khóa bạn cần tìm kiếm vào đây"> 
+                                <div class="goi-y">
+                                    <p>
+                                        <b>Gợi ý :</b> 
+                                        <a href="../html/EOS-R.html">EOS-R</a> ,
+                                        <a href="../html/Chi_tiet_M50.html"> M50</a>,
+                                        <a href="../html/Su_kien_1.html"> Lớp học nhiếp ảnh</a>, 
+                                        <a href="../html/Tin_tuc_1.html"> PowerShot ZOOM</a>     
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-fix">
+            <div id="nav">
+                <ul>
+                    <li><a href="../html/San_pham.html">Sản phẩm</a></li>
+                    <li><a href="../html/Tin_tuc.html">Tin tức và ấn phẩm</a></li>
+                    <li><a href="../html/Su_kien.html">Sự kiện</a></li>
+                    <li><a href="../html/Lien_he.html">Liên hệ</a></li>
+                    <li><a href="../html/Form-dang-ky.html">Đăng ký</a></li>
+                    <li><a href="../html/sitemap.html">Site Map</a></li>
+                </ul>
+                <p><a href="../html/members.html"> <b>Thành Viên Nhóm</b> </a></p>
+            </div>
+        </div>
+
+        <div id="khoi-slider">
+            <div id="slider">
+                <img id="img" onclick="changeImage1()"
+                    src="../img/c7adeb6418824162852f1bfc7b7e68bc_BANNER+WEBSITE_1920x750_1.jpg" alt="">
+            </div>
+        </div>
+
+        <script>
+            var index = 1;
+            changeImage1 = function () {
+                var imgs = ["../img/c7adeb6418824162852f1bfc7b7e68bc_BANNER+WEBSITE_1920x750_1.jpg",
+                    "../img/d882502e0ef44da2947dc223f5a7e115_banner+web.jpg",
+                    "../img/2038f5e75d7646cfa9fd3d61e2b77a3a_R5+cover+web.jpg",
+                    "../img/99fd8951d8ac406994f2ccb5989826df_banner+web+canon+2.jpg"
+                ];
+                document.getElementById('img').src = imgs[index];
+                index++;
+                if (index == 4) {
+                    index = 0;
+                }
+            }
+            setInterval(changeImage1, 1500);
+        </script>
+
+        <div id="content-top">
+
+            <div class="text-top row">
+                <div class="product-1 box-shadow col col-third">
+                    <h1>Phổ biến</h1>
+                    <a href="../html/Chi_tiet_M50.html">
+                        <img src="../img/eos_m50_m15-45_b1.png" alt="máy ảnh">
+                    </a>
+                    <a href="../html/Chi_tiet_M50.html">
+                        <p>EOS M50 Kit (EF-M15-45 IS STM)</p>
+                    </a>
+                    <div class="xem-truoc">
+                        <button onclick="document.getElementById('may_anh').style.display='block'">
+                            Xem Trước
+                        </button>
+                    </div>
+                </div>
+
+                <div id="may_anh" class="background-man-hinh-nho">
+                    <div class="container-man-hinh-nho">
+                        <div class="noi-dung">
+                            <div class="Name">
+                                <p>EOS M50 Mark II (EF-M15-45mm f/3.5-6.3 IS STM)</p>
+                            </div>
+                            <div class="hinh-anh">
+                                <img src="../img/ce5285aeefb24966b324099157013dc2_M50MII_Black_FrontSlantLeft_M15-45-.png"
+                                    alt="">
+                            </div>
+                            <div class="close">
+                                <button onclick="document.getElementById('may_anh').style.display='none'">
+                                    <i class="ti-close"></i>
+                                </button>
+                            </div>
+                            <div class="text">
+                                <h1>Truyền cảm hứng cho câu chuyện của bạn</h1>
+                                <p>
+                                    Nhẹ và phong cách, EOS M50 Mark II rất thú vị và dễ sử dụng với kết nối Wi-Fi cho
+                                    người sáng tạo nội dung
+                                    luôn gần gũi với khán giả . EOS M50 mang đến hiệu quả truyền thông rực rỡ trên
+                                    newfeed của bạn qua cách
+                                    kể chuyện trực quan bang hình ảnh/video chất lượng cao ở chế độ 4K tự động lấy nét
+                                    vào mắt và khuôn mặt
+                                    chủ thể chính xác.
+                                </p>
+                                <ul>
+                                    <li>Tăng tương tác video với live-stream trực tiếp lên Youtube từ máy ảnh</li>
+                                    <li>Quay phim 4K chiều dọc theo chuẩn mới của mạng xã hội (tiktok)</li>
+                                    <li>kết nối không dây với smartphone và hệ thống dữ liệu đám mây.</li>
+                                </ul>
+                            </div>
+                            <div class="gia">
+                                <p> 21,780,000 VND</p>
+                            </div>
+                            <div class="thanh-toan">
+                                <button>
+                                    <a href="../html/Gio_Hang.html">Thanh Toán Ngay</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1 box-shadow col col-third">
+                    <h1>Phổ biến</h1>
+                    <a href="../html/Chi_tiet_PIXMA G3020.html">
+                        <img src="../img/05898b24348b40429360c688cc41eae6_G3x20_AS_FR_cl_blk_en-362x320.png" alt="máy in">
+                    </a>
+                    <a href="../html/Chi_tiet_PIXMA G3020.html">
+                        <p>PIXMA G3020</p>
+                    </a>
+                    <div class="xem-truoc">
+                        <button onclick="document.getElementById('may_in').style.display='block'">
+                            Xem Trước
+                        </button>
+                    </div>
+                </div>
+
+                <div id="may_in" class="background-man-hinh-nho">
+                    <div class="container-man-hinh-nho">
+                        <div class="noi-dung">
+                            <div class="Name">
+                                <p>PIXMA G3020</p>
+                            </div>
+                            <div class="hinh-anh">
+                                <img src="../img/05898b24348b40429360c688cc41eae6_G3x20_AS_FR_cl_blk_en-362x320.png" alt="">
+                            </div>
+                            <div class="close">
+                                <button onclick="document.getElementById('may_in').style.display='none'">
+                                    <i class="ti-close"></i>
+                                </button>
+                            </div>
+                            <div class="text">
+                                <h1>Máy in phun đa chức năng tiếp mực liên tục với kết nối không dây và công suất in lớn
+                                </h1>
+                                <p>
+                                    Máy in được thiết kế với công suất in khối lượng lớn và chi phí thấp.
+                                </p>
+                                <ul>
+                                    <li>In, Quét, Sao chụp</li>
+                                    <li>Tốc độ in (A4) chuẩn ISO: Lên tới 8.8 trang ảnh/phút (đen trắng); 5.0 trang
+                                        ảnh/phút (màu)</li>
+                                    <li>In ảnh (4x6"): 60 giây (in không viền)</li>
+                                </ul>
+                            </div>
+                            <div class="gia">
+                                <p>6,600,000 VND</p>
+                            </div>
+                            <div class="thanh-toan">
+                                <button>
+                                    <a href="../html/Gio_Hang.html">Thanh Toán Ngay</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1 box-shadow col col-third">
+                    <h1>Phổ biến</h1>
+                    <a href="../html/XA35.html">
+                        <img src="../img/XA35-b1.png" alt="máy ảnh">
+                    </a>
+                    <a href="../html/XA35.html">
+                        <p>XA35</p>
+                    </a>
+                    <div class="xem-truoc">
+                        <button onclick="document.getElementById('may_quay').style.display='block'">
+                            Xem Trước
+                        </button>
+                    </div>
+                </div>
+
+                <div id="may_quay" class="background-man-hinh-nho">
+                    <div class="container-man-hinh-nho">
+                        <div class="noi-dung">
+                            <div class="Name">
+                                <p>XA35</p>
+                            </div>
+                            <div class="hinh-anh">
+                                <img src="../img/XA35-b1.png" alt="">
+                            </div>
+                            <div class="close">
+                                <button onclick="document.getElementById('may_quay').style.display='none'">
+                                    <i class="ti-close"></i>
+                                </button>
+                            </div>
+                            <div class="text">
+                                <p>
+                                    XA35 là dòng máy quay phim Full HD nhỏ gọn, được tích hợp cổng HD/SD-SDI giúp hỗ trợ
+                                    việc truyền tải
+                                    dữ liệu đầu ra không nén. Với thiết kế cầm tay và ống zoom quang học 20x, đây chính
+                                    là thiết bị lý
+                                    tưởng cho việc thực hiện những thước phim ngoài hiện trường như báo cáo tin tức,
+                                    phim tài liệu hay
+                                    những cảnh quay ngoài trời.
+                                </p>
+                                <ul>
+                                    <li>Cảm biến HD CMOS PRO cải tiến và ống Lens Canon HD Video (phóng đại 20x, 26.8mm
+                                        - 576mm*,
+                                        f/1.8-2.8)</li>
+                                    <li>Thiết bị ổn định hình ảnh và chống rung IS siêu thông minh – lựa chọn tuyệt vời
+                                        cho việc ghi
+                                        hình khi đang di chuyển.</li>
+                                    <li>SD/HD SDI – video không nén với âm thanh nhúng và hỗ trợ mã hóa thời gian</li>
+                                </ul>
+                            </div>
+                            <div class="gia">
+                                <p>57,000,000 VND</p>
+                            </div>
+                            <div class="thanh-toan">
+                                <button>
+                                    <a href="../html/Gio_Hang.html">Thanh Toán Ngay</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-bottom">
+                <div class="product-2 box-shadow row">
+                    <div class="img col col-hafl">
+                        <a href="../html/EOS-R.html">
+                            <img class="mayanh"
+                                src="../img/db4a8314e75d49ed9bc1dcda6d80452a_EOS+R+Kit+Back+Front+Slant+Down.png"
+                                alt="máy ảnh">
+                        </a>
+                        <p>Mới</p>
+                    </div>
+                    <div class="text col col-hafl">
+                        <a href="../html/EOS-R.html">
+                            <p>EOS R (RF24-105mm f/4L IS USM)</p>
+                        </a>
+                        <p>Được ra mắt là máy ảnh Full-frame Không Gương Lật đầu tiên của Canon với hệ thống EVF bên
+                            trong, chiếc máy ảnh EOS R chứa đựng đột phá trong Mount Technology cho tốc độ kết nối nhanh
+                            giữa ống lens và camera. Chip xử lý Digic 8 không những tạo điều kiện cho máy ảnh hỗ...</p>
+                        <button class="btn" type="button">
+                            <a href="../html/EOS-R.html">Xem Sản Phẩm</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="nut-quay-lai">
+                <div class="text-bottom-bnt">
+                    <a href="../html/San_pham.html">
+                        <p>Xem thêm các sản phẩm ></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="tieude">
+                <p>Sự Kiện</p>
+            </div>
+
+            <div class="text-bottom ">
+                <div class="product-2  box-shadow row">
+                    <div class="img col col-hafl">
+                        <a href="../html/Su_kien_1.html">
+                            <img src="../img/7b84f61d34c549fdbdc2792a3b628a04_thumbnail+event+web_vie.jpg"
+                                alt="sự kiện">
+                        </a>
+                    </div>
+                    <div class="nhan-su-kien">
+                        <p>Sự kiện</p>
+                    </div>
+                    <div class="text col col-hafl">
+                        <a href="../html/Su_kien_1.html">
+                            <p>[TIN NÓNG] CANON VIETNAM RA MẮT LỚP HỌC NHIẾP ẢNH CƠ BẢN TRỰC TUYẾN!</p>
+                        </a>
+                        <p> <b>Ngày 25 tháng 8 năm 2020</b> — Hưởng ứng không khí học tập online, chung tay đẩy lùi dịch
+                            bệnh, Canon Vietnam sẽ lần đầu tiên tổ chức những lớp học NHIẾP ẢNH CƠ BẢN dưới hình thức
+                            livestream trực tuyến. Như vậy, tất cả những khách hàng sở hữu máy ảnh Canon đều...</p>
+                        <button class="btn" type="button">
+                            <a href="../html/Su_kien_1.html">Đọc thêm</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- NÚT QUAY LẠI -->
+            <div class="nut-quay-lai">
+                <div class="text-bottom-bnt">
+                    <a href="../html/Su_kien.html">
+                        <p>Xem thêm sự kiện ></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="tieude">
+                <p>Tin tức & Thông cáo báo chí</p>
+            </div>
+            <!-- TIN TỨC -->
+            <div class="text-bottom">
+                <div class="product-2 box-shadow row">
+                    <div class="img col col-hafl">
+                        <a href="../html/Tin_tuc_1.html">
+                            <img src="../img/32c05bfd6f57474b90528f1c17f1896c_PowerShot+ZOOM+(1).jpg" alt="tin tức">
+                        </a>
+                    </div>
+                    <div class="text col col-hafl">
+                        <a href="../html/Tin_tuc_1.html">
+                            <p>Zoom xa đến tiêu cự 800 mm với chiếc máy PowerShot ZOOM của Canon ngay trong túi bạn.</p>
+                        </a>
+                        <p> <b>Ngày 8 tháng 3 năm 2021</b> — Thành phố Hồ Chí Minh, ngày 08 tháng 03 năm 2021 – Canon
+                            thông báo ra mắt PowerShot ZOOM, chiếc máy ảnh kiêm ống nhòm kĩ thuật số bỏ túi, được thiết
+                            kế cho những ai muốn tiếp cận gần hơn với chủ thể trong các hoạt động như thể thao, sự kiện
+                            ...</p>
+                        <button class="btn" type="button">
+                            <a href="../html/Tin_tuc_1.html">Đọc Thêm</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="content-bottom">
+            <div class="text">
+                <ul>
+                    <li class="top">Công ty</li>
+                    <li><a href="">Về chúng tôi</a></li>
+                    <li><a href="">Trách nhiệm xã hội doanh nghiệp</a></li>
+                    <li><a href="">Trang mạng xã hội chính thức</a></li>
+                    <li><a href="">Tin tức và ấn phẩm</a></li>
+                    <li><a href="">Sự Kiện</a></li>
+                    <li><a href="">Quy định sử dụng</a></li>
+                    <li><a href="">Chính sách bảo mật</a></li>
+                </ul>
+            </div>
+            noi-dung
+            <div class="text">
+                <ul>
+                    <li class="top">Các sản phẩm</li>
+                    <li><a href="">Máy ảnh</a></li>
+                    <li><a href="">Máy in</a></li>
+                    <li><a href="">Máy scan</a></li>
+                    <li><a href="">Máy quay phim</a></li>
+                    <li><a href="">Máy chiếu</a></li>
+                </ul>
+            </div>
+
+            <div class="text">
+                <ul>
+                    <li class="top">Dịch vụ</li>
+                    <li><a href="">Nơi mua</a></li>
+                    <li><a href="">Chống hàng giả</a></li>
+                </ul>
+            </div>
+
+            <div class="text">
+                <ul>
+                    <li class="top">Hỗ trợ & Tải file</li>
+                    <li><a href="">Hỗ trợ & Tải file</a></li>
+                </ul>
+            </div>
+
+            <div class="text">
+                <ul>
+                    <li class="mangxahoi"> <a href=""><i class="ti-world"></i> Các trang Canon</a></li>
+                    <li class="icon">
+                        <a href="https://www.facebook.com/canonvietnamfanpage/"><i class="ti-facebook"></i></a>
+                        <a href="https://www.instagram.com/canonvietnam/"><i class="ti-instagram"></i></a>
+                        <a href="https://twitter.com/canonusa"><i class="ti-twitter"></i></a>
+                        <a href="https://www.youtube.com/channel/UCu3fueihqjgx3nZ63e_0U-Q"><i
+                                class="ti-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="button-home">
+            <div>
+                <a href="#">
+                    <i class="ti-angle-up"></i>
+                    <p>Trở lại đầu trang</p>
+                </a>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="content">
+                <div class="text">
+                    <p>Bản quyền © 2021 CÔNG TY TNHH CANON MARKETING VIỆT NAM</p>
+                    <p>GCNĐKDN số 0311869297, do SKH&DT HCM cấp lần đầu ngày 25/06/2012</p>
+                    <p>Tầng 10 và Tầng 11, President Place, số 93, đường Nguyễn Du, P. Bến Nghé, Q.1, TP HCM, VN Tel:
+                        (84-8) 38200 466 </p>
+                </div>
+                <div class="img">
+                    <img src="../img/062c5a46da6c4275b942567654cd89b1_dathongbao.png" alt="">
+                </div>
+            </div>
+            <div class="backgroud">
+                <img src="https://vn.canon/assets/bg/shape-a113ffbf991bfeebbb0589fe78dacc6a.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

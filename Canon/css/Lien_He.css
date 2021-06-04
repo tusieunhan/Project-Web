@@ -1,0 +1,105 @@
+#khung .box-map{
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    position: relative;
+    height: 1200px;
+
+}
+#khung .khoangle{
+    height: 50px;
+}
+#khung .box-map .text-h1 h1{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: #353535;
+    margin: 0 0 2% 0;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 100px;
+}
+#khung .box-map .text-p p{
+    color: #6f6f6f;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+#khung .box-map .text-p{
+    border-bottom: 1px solid #c4c4c4;
+    width: 70%;
+    margin-left: 16%;
+    padding: 10px;
+}
+#khung .box-map .box-text{
+    height: 850px;
+    width: 39%;
+    margin-left: 10%;
+    /* box-shadow: 0 0 10px rgb(0 0 0 / 50%); */
+    position: relative;
+    float: left;
+    margin-top: 40px;
+    display: block;
+}
+#khung .box-map .box-input{
+    height: 850px;
+    width: 39%;
+    margin-left: 3%;
+    /* box-shadow: 0 0 10px rgb(0 0 0 / 50%); */
+    position: relative;
+    float: left;
+    margin-top: 40px;
+    display: block;
+}
+#khung .box-map .box-text p{
+font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6f6f6f;
+}
+#khung .box-map .box-text .spkh{
+    padding: 12px 20px;
+    border: 1px solid #dad7d7;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #ff0000;
+    font-size: 12px;
+    padding: 14px;
+}
+#khung .box-map .box-input .form-g input:hover,
+#khung .box-map .box-text .spkh:hover{
+    border: 2px solid #ff0000;
+}
+#khung .box-map .img{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -5;
+    opacity: 0.3;
+}
+#khung .box-map .box-input .form-g input{
+    padding: 17px 23px;
+    border-radius: 15px;
+    border: solid 2px #ebebeb;
+    width: 85%;
+    margin: 10px;
+    outline: none;
+}
+#khung .box-map .box-input .tototo input{
+    padding-bottom: 100px;
+}
+#khung .box-map .box-input .box-click{
+    padding: 17px 23px;
+    border-radius: 15px;
+    border: solid 2px #fa0000;
+    background-color: #fa0000;
+    width: 85%;
+    margin: 10px;
+    color: #fff;
+}
+#khung .box-map .box-input .box-click:hover{
+    background-color: #aa0000;
+    border: solid 2px #aa0000;
+    transition: 0.5s;
+}

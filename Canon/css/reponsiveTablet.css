@@ -1,0 +1,51 @@
+@media (max-width:840px){
+    .product-2 .text a p{
+        width: auto;
+    }
+    .product .text p {
+        width: auto;
+    }
+    #news {
+        height: 500px;
+    }
+    .text-bottom .product-2{
+        margin-top: 30px;
+        height: 430px;
+    }
+    .product-2 .text a p {
+        margin-top: 15%;
+    }
+    .tieude p {
+        padding-top: 26px;
+    }
+    #content-may-anh .product .gioi-thieu ul {
+        display: none;
+    }
+    #content-may-anh .product {
+        min-height: 400px;
+    }
+    #content-may-anh .product .ten-san-pham {
+        top: 35%;
+    }
+    #content-may-anh .product .gia-san-pham {
+        bottom: 20%;
+        left: 5px;
+    }
+    #content-may-anh .product .button {
+        padding: 5px 27px;
+        bottom: 9%;
+        right: 11%;
+    }
+    #content-top .text-bottom-bnt {
+        width: 106%;
+        top: 35px;
+        
+    }
+    .text-top {
+        margin: 65px 0 0px 0;
+    }
+    .product-2 .text button {
+        right: 433px;
+    }
+    
+}

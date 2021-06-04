@@ -1,0 +1,153 @@
+#background-tim-kiem,#background-dang-nhap{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1;  
+}
+#background-tim-kiem .container-tim-kiem,
+#background-dang-nhap .container-dang-nhap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#background-tim-kiem .noi-dung,
+#background-dang-nhap .noi-dung{
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+#background-tim-kiem .noi-dung{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* input - tim - kiem */
+.input-tim-kiem{
+    width: 100%;
+}
+
+.input-tim-kiem input{
+    width: 80%;
+    height: 50px;
+    border-radius: 40px;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    color: coral;
+    border: 3px solid black;
+}
+
+.input-tim-kiem input:hover{
+    border: 3px solid red;
+}
+/*  */
+/* Gợi - ý  */
+.goi-y p{
+    font-size: 20px !important;
+    
+}
+.goi-y p a {
+    color: black;
+}
+.goi-y p a:hover{
+    color: red;
+}
+/*  */
+#background-dang-nhap .noi-dung
+{
+    background-color: rgba(35, 35, 35, 0.6);
+    width: 750px;
+    height: 400px;
+}
+#background-tim-kiem .noi-dung .button-close,
+#background-dang-nhap .noi-dung .button-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding: 6px;
+}
+#background-tim-kiem .noi-dung .button-close button,
+#background-dang-nhap .noi-dung .button-close button{
+    background-color: rgb(255, 64, 64);
+    border: none;
+    padding: 6px;
+    border-radius: 50%;
+
+}
+.text-header-dangnhap{
+    margin-top: 65px;
+    color: rgb(8, 8, 8);
+    
+}
+#background-dang-nhap .noi-dung .tieu-de h4{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+}
+#background-dang-nhap .noi-dung .logo{
+    width: 100%;
+    position: absolute;
+    top: -10%;
+    left: -1%;  
+    z-index: 1;
+}
+#background-dang-nhap .noi-dung .logo img{
+    width: 10%;
+}
+#background-dang-nhap .noi-dung .form ::placeholder{
+    padding-left: 20px;
+    
+}
+#background-dang-nhap .noi-dung .form{
+    position: absolute;
+    bottom: 45%;
+    left: 30%;
+    z-index: 1;
+}
+#background-dang-nhap .noi-dung .form input{
+    padding: 15px;
+    width: 300px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 10px;
+}
+#background-dang-nhap .noi-dung .form input:hover{
+    border: 2px solid red;
+}
+#background-dang-nhap .noi-dung .dang-nhap{
+    position: absolute;
+    bottom: 15%;
+    left: 38%;
+    z-index: 1;
+}
+#background-dang-nhap .noi-dung .dang-nhap button{
+    background-color: rgb(255, 64, 64);
+    border: none;
+    padding: 13px 30px;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+}
+#background-dang-nhap .noi-dung .dang-nhap a{
+    color: rgb(255, 64, 64);
+}
+#background-dang-nhap .noi-dung .dang-nhap:hover button{
+    background-color: darkred;
+}
+.form-remember{
+    display: inline-flex;
+    margin: -15px -31px 35px 116px;
+    color: rgb(255, 255, 255);
+}

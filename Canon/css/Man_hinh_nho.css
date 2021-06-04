@@ -1,0 +1,104 @@
+.background-man-hinh-nho{
+    background-color: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;  
+    right: 0; 
+    display: none;
+    z-index: 100;
+}
+
+.container-man-hinh-nho{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.container-man-hinh-nho .noi-dung{
+    width: 900px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+    background-color: white;
+    position: relative;
+    display: flex;
+}
+.container-man-hinh-nho .noi-dung .Name {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    width: 40%;
+}
+.container-man-hinh-nho .noi-dung .Name p{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0, 0, 0,0.7);
+}
+.container-man-hinh-nho .noi-dung .hinh-anh{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+}
+.container-man-hinh-nho .noi-dung .hinh-anh img{
+    width: 100%;
+}
+.container-man-hinh-nho .noi-dung .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container-man-hinh-nho .noi-dung .close button{
+    background-color: rgb(240, 73, 73);
+    border: none;
+    padding: 6px;
+}
+.container-man-hinh-nho .noi-dung .text{
+    position:absolute;
+    top: 17%;
+    left: 3%;
+    width: 50%;
+}
+.container-man-hinh-nho .noi-dung .text h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgba(0, 0, 0,0.5);
+    margin-bottom: 10px;
+}
+.container-man-hinh-nho .noi-dung .text ul{
+    list-style-type: disc;
+    margin: 10px 20px;
+}
+.container-man-hinh-nho .noi-dung .gia{
+    position:absolute;
+    bottom: 9%;
+    right: 10%;
+    height: 50px;
+    min-width: 250px;
+    text-align: center;  
+    border-top: 1px solid rgba(0, 0, 0,0.3);
+    border-bottom: 1px solid rgba(0, 0, 0,0.3);
+    line-height: 50px;   
+}
+.container-man-hinh-nho .noi-dung .gia p{
+    font-size: 24px;
+    color: rgba(0, 0, 0,0.7);
+}
+.container-man-hinh-nho .noi-dung .thanh-toan{
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+}
+
+.container-man-hinh-nho .noi-dung .thanh-toan button{
+    min-width: 250px;
+    background-color: tomato;
+    border: none;
+    padding: 5% 10%;
+    border-radius: 50px;
+}
+.container-man-hinh-nho .noi-dung .thanh-toan button a{
+    color: white;
+}

@@ -1,0 +1,112 @@
+#nav-phu .thanhtoan{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 30%;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+}
+
+#nav-phu .thanhtoan a{
+    background-color: #ccc;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 2px solid #ccc;
+    margin-right: 3%;
+}
+#nav-phu .thanhtoan a:hover{
+    border: 2px solid rgb(248, 101, 47);
+    color: rgb(248, 101, 47);
+    background-color: white;
+    transition: 0.5s;
+}
+#content-m50{
+    width: 100%;
+}
+
+#content-1{
+    width: 100%;
+    min-height: 400px;
+}
+
+#content-1 .text{
+
+}
+#content-1 .text h1{
+    margin: 6% 0 3% 7%;
+    color:  rgba(0, 0, 0, 0.7);
+}
+#content-1 .text h3{
+    margin: 3% 0 3% 7%;
+    color:  rgba(0, 0, 0, 0.5);
+}
+#content-1 .text p{
+    margin: 3% 0 3% 7%;
+}
+#content-1 .text ul{
+    list-style-type: square !important;
+    margin: 3% 0 3% 10%;
+}
+#content-1 .text li{
+    margin-top: 1%;
+}
+#content-1 .imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-1 .imgs img {
+    width: 70%;
+}
+
+#content-m50 > img{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+#content-m50 img.quayphim-4k{
+    width: 80% !important;
+    margin:0 10%;
+}
+
+#content-2{
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+}
+
+#content-2 h3{
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 1%;
+}
+
+#content-3{
+    width: 80%;
+    margin: 5% 10%;
+}
+
+#content-3 .text{
+    margin-top: 5%;
+}
+#content-3 .text h3{
+    margin-bottom: 3%;
+    opacity: 0.8;
+}
+#content-3 .text p{
+    margin-bottom: 2%;
+}
+#content-3 .imgs img.img1{
+    width: 90%;
+    float: right;
+}
+
+#content-3 .imgs img.img2{
+    width: 90%;
+    float: left;
+}
+.text-top .product-1{
+    min-height: 600px !important;
+}

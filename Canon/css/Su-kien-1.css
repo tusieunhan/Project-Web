@@ -1,0 +1,50 @@
+#noi-dung{
+    width: 100%;
+    position: relative;
+}
+#noi-dung .ngay-thang{
+    font-size: 26px;
+    color: black;
+    opacity: 0.7;
+    margin: 3% 0 0 5%;
+    
+}
+#noi-dung .ten-su-kien{
+    font-size: 32px;
+    color: black;
+    margin: 3% 0 0 5%;
+}
+#noi-dung .img-su-kien{
+    width: 100%;
+}
+#noi-dung .img-su-kien img,
+#noi-dung .text-su-kien p
+{
+    width: 50%;
+    margin-left: 25%;
+}
+#noi-dung .chuyen-trang-right{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: 5;
+}
+#noi-dung .chuyen-trang-left a,
+#noi-dung .chuyen-trang-right a{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 20px;
+}
+#noi-dung .chuyen-trang-left{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    z-index: 5;
+}
+#noi-dung .text-su-kien
+{
+    margin-top: 3%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 5%;
+}

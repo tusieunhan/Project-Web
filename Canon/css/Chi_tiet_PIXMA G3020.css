@@ -1,0 +1,70 @@
+#nav-phu .thanhtoan{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+}
+
+#nav-phu .thanhtoan a{
+    background-color: #ccc;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 2px solid #ccc;
+    margin-right: 3%;
+}
+#nav-phu .thanhtoan a:hover{
+    border: 2px solid rgb(248, 101, 47);
+    color: rgb(248, 101, 47);
+    background-color: white;
+    transition: 0.5s;
+}
+
+
+#content-m50{
+    width: 100%;
+}
+
+#content-1{
+    width: 100%;
+    min-height: 400px;
+}
+
+#content-1 .text{
+
+}
+#content-1 .text h1{
+    margin: 6% 0 3% 7%;
+    color:  rgba(0, 0, 0, 0.7);
+}
+#content-1 .text h3{
+    margin: 3% 0 3% 7%;
+    color:  rgba(0, 0, 0, 0.5);
+}
+#content-1 .text p{
+    margin: 3% 0 3% 7%;
+}
+#content-1 .text ul{
+    list-style-type: square !important;
+    margin: 3% 0 3% 10%;
+}
+#content-1 .text li{
+    margin-top: 1%;
+}
+#content-1 .imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-1 .imgs img {
+    width: 70%;
+}
+.tieude{
+    text-align: center;
+    font-size: 42px;
+    opacity: 0.6;
+}

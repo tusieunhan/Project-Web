@@ -1,0 +1,125 @@
+#nav-may-anh{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    /* margin-top: 2%; */
+}
+
+#nav-may-anh .into-feces{
+    width: 10% ;
+    height: 120px;
+    margin-left: 3%;
+    position: relative;
+}
+.Gach-chan{
+    border-bottom: 2px solid red;
+}
+#nav-may-anh .into-feces .img{
+    position: absolute;
+    top: 0;
+}
+#nav-may-anh .into-feces .img img.margin{
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+}
+#nav-may-anh .into-feces .img img.padding{
+    width: 70%;
+    padding-top: 10%;
+}
+#nav-may-anh .into-feces .text{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    min-height: 45px;
+}
+#nav-may-anh .into-feces .text p{
+    text-align: center;
+}
+#nav-may-anh .into-feces .text p a{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+}
+/* CONTENT MAY ANH */
+#content-may-anh{
+    width: 100%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+#content-may-anh .box{
+    width: 100%;
+    margin: 50px 0;
+}
+
+#content-may-anh .product{
+    padding: 1%;
+    min-height: 650px;
+    margin-left: 5%;
+    position: relative;
+}
+
+#content-may-anh .product .hinh img{
+    width: 90%;
+    margin-left: 5%;
+}
+#content-may-anh .product .ten-san-pham{
+    position: absolute;
+    top: 37%;
+    left: 10%;
+
+}
+#content-may-anh .product .ten-san-pham a{
+    font-size: 24px;
+    color: black;
+    opacity: 0.8;
+}
+
+#content-may-anh .product .ten-san-pham:hover a{
+    color: coral;
+    transition: 0.5s;
+}
+
+#content-may-anh .product .gioi-thieu{
+    width: 80%;
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+    min-height: 29%;
+}
+#content-may-anh .product .gioi-thieu ul{
+    list-style-type:disc !important;
+}
+#content-may-anh .product .gioi-thieu li{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 3px;
+}
+
+#content-may-anh .product .gia-san-pham{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 2%;
+    position: absolute;
+    bottom: 14%;
+    left: 20%;
+}
+#content-may-anh .product .gia-san-pham p b{
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+#content-may-anh .product .button {
+    width: 80%;
+    margin: 4% 0 0 9%;
+    padding: 14px 40px;   
+    background-color: rgb(236, 29, 36);
+    border-radius: 25px;
+    text-align: center;
+    position: absolute;
+    bottom: 3%;
+    right: 11%;
+}
+#content-may-anh .product .button a{
+    color: white;
+}
